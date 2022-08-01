@@ -1,0 +1,223 @@
+$zelena: #023924;
+$zuta:#ffdb00;
+$roze:#cd88a9;
+body{
+    background-image: url(../img/bk1.jpg);
+    .navbar>.container {
+            display: block !important;
+        }
+        nav{
+            .container{
+                
+                .navbar-collapse{
+                    position:relative;
+                   
+                }
+            }
+        }
+    .n{
+        background-color: $roze;
+       .brand-logo{
+           background-image: url(../img/proba.png);
+           width: 10%;
+           height: 100%;
+           background-repeat: no-repeat;
+
+       }
+        }
+        li{
+            i{
+                width:100%;
+                height: auto;
+            }
+            a{
+            
+                    color:$zelena !important;
+            
+            }
+        }
+     .carousel 
+     {.carousel-item>img {
+         width:50%;
+     }
+ }
+ .container{
+     .row{
+         .ikonica{
+             display: none;
+             a{ 
+                 i.small{
+             color:#023924; }
+                 }
+         }
+     }
+ }
+ .sp{
+     width:70%;
+ }
+ .card{
+     .card-content{
+         p{
+             a{
+                 color:#023924;
+                 text-decoration: none;
+                 background-color: #cd88a9;
+                 font-weight: bold;
+                 padding: 5%;
+                &:hover {
+                    transform: scale(1.05) !important;
+                }
+             }
+         }
+     }
+     margin:0px auto;
+ .card-img-top{
+     width: 30%;
+     margin:0px auto;
+
+ }
+ .btn-primary{
+     background-color: #cd88a9 !important;
+     border-color: #cd88a9 !important;
+     height: 3.5em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+}
+.dostava{
+    background-color:rgba(#ffdb00, 0.4) 
+    ;
+}
+.container-fluid{
+    .mapa{
+      background-image: url(../img/mapa.png);
+      width: 50%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+}
+.sidenav-overlay{
+    background-color: transparent !important;
+}
+.page-footer{
+    background-color: #cd88a9 !important;
+    color:#023924 !important;
+    .container{
+        .row{
+            .col{
+                ul {
+                    li {
+                        a {
+                            color: #023924 !important;
+                        }
+                    }
+                }
+                .row{
+                    .col{
+                        .row{
+                            .input-field{
+                                input[type=text]{
+                                   background-color:white !important;
+                                }
+                                #icon-prefix{
+                                    color:white !important;
+                                }
+                                label{
+                                    width:50%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .white-text{
+                color:#023924 !important;
+                
+        }
+         
+    }
+    }
+    .footer-copyright{
+        color:#023924;
+        a{
+            color:#023924 !important;
+        }
+    }
+    .col{
+        .white-text{
+            ul{
+                li{
+            a{
+                text-decoration: none;
+                color:#023924 !important;
+            }
+        }
+    }
+
+}
+.row{
+    .modal
+    {
+         .modal-content{
+             overflow-y:none;
+         }
+    
+}
+}
+
+.navbar{
+    .collapse{
+        .navbar-nav{
+            padding-bottom: 200px !important;
+        }
+    }
+}
+}  
+
+/*RESPONSIVE*/
+@media screen and (max-width:991px){
+    body{
+        .container {
+            .row {
+                .ikonica {
+                    display: block;
+                }
+                .card{
+                .card-content{
+                    p{
+                      display:none;
+                    }
+                }
+            }
+        }
+        }
+        .dostava{
+            background-color:transparent;
+        }
+    }
+}
+}
+.container{
+    .row{
+        .col-md-6{
+            img{
+                width:100% !important;
+            }
+        }
+    }
+}
+
+}
+@media screen and (max-width:575px) {
+    body{
+
+  .container {
+      .navbar-collapse {
+          background-color: rgba(#2ab7a9, 0.9);
+          margin-top: 50px;
+      }}
+    }
+}

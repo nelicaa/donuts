@@ -1,0 +1,97 @@
+body {
+  background-image: url(../img/bk1.jpg); }
+  body .navbar > .container {
+    display: block !important; }
+  body nav .container .navbar-collapse {
+    position: relative; }
+  body .n {
+    background-color: #cd88a9; }
+    body .n .brand-logo {
+      background-image: url(../img/proba.png);
+      width: 10%;
+      height: 100%;
+      background-repeat: no-repeat; }
+  body li i {
+    width: 100%;
+    height: auto; }
+  body li a {
+    color: #023924 !important; }
+  body .carousel .carousel-item > img {
+    width: 50%; }
+  body .container .row .ikonica {
+    display: none; }
+    body .container .row .ikonica a i.small {
+      color: #023924; }
+  body .sp {
+    width: 70%; }
+  body .card {
+    margin: 0px auto; }
+    body .card .card-content p a {
+      color: #023924;
+      text-decoration: none;
+      background-color: #cd88a9;
+      font-weight: bold;
+      padding: 5%; }
+      body .card .card-content p a:hover {
+        transform: scale(1.05) !important; }
+    body .card .card-img-top {
+      width: 30%;
+      margin: 0px auto; }
+    body .card .btn-primary {
+      background-color: #cd88a9 !important;
+      border-color: #cd88a9 !important;
+      height: 3.5em;
+      display: flex;
+      justify-content: center;
+      text-align: center; }
+  body .dostava {
+    background-color: rgba(255, 219, 0, 0.4); }
+  body .container-fluid .mapa {
+    background-image: url(../img/mapa.png);
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  body .sidenav-overlay {
+    background-color: transparent !important; }
+  body .page-footer {
+    background-color: #cd88a9 !important;
+    color: #023924 !important;
+    /*RESPONSIVE*/ }
+    body .page-footer .container .row .col ul li a {
+      color: #023924 !important; }
+    body .page-footer .container .row .col .row .col .row .input-field input[type=text] {
+      background-color: white !important; }
+    body .page-footer .container .row .col .row .col .row .input-field #icon-prefix {
+      color: white !important; }
+    body .page-footer .container .row .col .row .col .row .input-field label {
+      width: 50%; }
+    body .page-footer .container .row .white-text {
+      color: #023924 !important; }
+    body .page-footer .footer-copyright {
+      color: #023924; }
+      body .page-footer .footer-copyright a {
+        color: #023924 !important; }
+    body .page-footer .col .white-text ul li a {
+      text-decoration: none;
+      color: #023924 !important; }
+    body .page-footer .col .row .modal .modal-content {
+      overflow-y: none; }
+    body .page-footer .col .navbar .collapse .navbar-nav {
+      padding-bottom: 200px !important; }
+    @media screen and (max-width: 991px) {
+      body .page-footer body .container .row .ikonica {
+        display: block; }
+      body .page-footer body .container .row .card .card-content p {
+        display: none; }
+      body .page-footer body .dostava {
+        background-color: transparent; } }
+  body .container .row .col-md-6 img {
+    width: 100% !important; }
+
+@media screen and (max-width: 575px) {
+  body .container .navbar-collapse {
+    background-color: rgba(42, 183, 169, 0.9);
+    margin-top: 50px; } }
+
+/*# sourceMappingURL=style.css.map */
